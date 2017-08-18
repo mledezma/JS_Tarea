@@ -1,0 +1,23 @@
+/*------GENERAL-------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 1920px;
+	text-align: center;
+}
+
+.imgContainer {
+	height: 500px;
+}
+
+.btns {
+	height: 50px;
+}
+
+.btns:hover {
+	opacity: 0.5;
+}

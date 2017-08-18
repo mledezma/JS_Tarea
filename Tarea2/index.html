@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<!-- Canvas fot the panning background -->
+	<canvas id="background" width="600" height="360"></canvas>
+
+	<!-- Canvas for all enemy ships and bullets -->
+	<canvas id="main" width="600" height="360"></canvas>
+
+	<!-- Canvas the ship uses -->
+	<canvas id="ship" width="600" height="360"></canvas>
+
+	<div class="score">SCORE: <span id="score"></span></div>
+	<div class="game-over" id="game-over">GAME OVER<p><span onclick="game.restart()">Restart</span></p></div>
+	<div class="loading" id="loading">LOADING...<p>Please wait</p></div>
+
+	<script type="text/javascript" src="js/gameBackground.js"></script>
+	<script type="text/javascript" src="js/gameShooter.js"></script>
+	<script type="text/javascript" src="js/quadTree.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
