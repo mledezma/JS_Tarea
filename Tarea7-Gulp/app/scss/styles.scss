@@ -1,0 +1,36 @@
+@font-face {
+    font-family: mahee;
+    font-weight: 800;
+    src: url('../fonts/MuktaMahee-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: mahee;
+    font-weight: 500;
+    src: url('../fonts/MuktaMahee-Regular.ttf');
+}
+
+.testing {
+    background-color: #fff;
+    width: percentage(5/7);
+}
+
+body {
+    background-color: #563096;
+    text-align: center;
+}
+
+h1 {
+    font-family: mahee, serif;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    font-family: mahee, serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+}
